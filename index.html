@@ -21,46 +21,57 @@
         </nav>
         <section class="about container" id="about">
             <div class="about_details">
-                <h1>This Website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid odio in sint veniam tempora, atque eveniet nesciunt quos, incidunt, mollitia aspernatur ea.</p>
+                <h1 class="about_main">This Website is awesome</h1>
+                <p class="about_secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid odio in sint veniam tempora, atque eveniet nesciunt quos, incidunt, mollitia aspernatur ea.</p>
                 <a class="signup_link header_link" href="#">Sign Up</a>
             </div>
-            <img class="banner_img" src="./images/setup.jpg" alt="banner image">
+            <div class="banner_img" >
+                <img src="./images/setup.jpg" alt="banner image">
+            </div>
+            
         </section>
     </header>
     <main>
-        <section class="product-sectn container" id="product">
-            <h2>Some Random Information</h2>
+        <section class="product_sectn container" id="product">
+            <h2 class="info_heading">Some Random Information</h2>
             <div class="prdct_carousel container">
-                <div class="prdct_one">
+                <div class="prdct_one prdct">
                     <img class="prdct_img" src="./images/ipad.jpg" alt="product one">
                     <p class="prdct_info">This is some subtext under the image</p>
                 </div>
-                <div class="prdct_two">
+                <div class="prdct_two prdct">
                     <img class="prdct_img" src="./images/earbuds.jpg" alt="product two">
                     <p class="prdct_info">This is some subtext under the image</p>
                 </div>
-                <div class="prdct_three">
+                <div class="prdct_three prdct">
                     <img class="prdct_img" src="./images/ipad.jpg" alt="product three">
                     <p class="prdct_info">This is some subtext under the image</p>
                 </div>
-                <div class="prdct_four">
+                <div class="prdct_four prdct">
                     <img class="prdct_img" src="./images/earbuds.jpg" alt="product four">
                     <p class="prdct_info">This is some subtext under the image</p>
                 </div>
             </div>
         </section>
         <section class="inspo">
-            <p class="inspo_quote">This is an inspiring quote or atestimonial from a customer. Maybe it's just filling up space, or Maybe people will actually read it. Who knows? All I know is that it looks nice.
-                <span class="inspo_author">-Thor,God of Thunder</span>
+            <p class="inspo_quote">
+                <em>
+                    This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+                </em>
             </p>
+            <p class="inspo_author">
+                <strong >-Thor,God of Thunder</strong>
+            </p>
+            
         </section>
         <section class="cta_sectn container">
-            <div class="cta_details">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
+            <div class="cta_sectn--cntnr container">
+                <div class="cta_details">
+                    <h3 class="cta_heading">Call to action! It's time!</h3>
+                    <p class="cta_info">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <a class="signup_link cta_link" href="#">Sign Up</a>
             </div>
-            <a class="signup_link footer_link" href="#">Sign Up</a>
         </section>
     </main>
     <footer class="footer_sectn  container">
