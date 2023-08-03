@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
     <header class="hero_sectn container">
-        <nav class="nav_sctn container">
-            <img class="header_logo" src="https://www.flaticon.com/free-icons/odin" alt="odin icons">
-            <div class="nav_links">
-                <a href="#about">About</a>
-                <a href="#product">Products</a>
-                <a href="#sign-up">Sign Up</a>
+        <nav class="nav_sectn container">
+            <img class="header_logo" src="./images/logo.png" alt="odin icons">
+            <div class="nav_sectn--links container">
+                <a class="nav--links" href="#about">About</a>
+                <a class="nav--links" href="#product">Products</a>
+                <a class="nav--links" href="#sign-up">Sign Up</a>
             </div>
         </nav>
         <section class="about container" id="about">
@@ -59,7 +63,7 @@
             <a class="signup_link footer_link" href="#">Sign Up</a>
         </section>
     </main>
-    <footer class="footer_sectn container">
+    <footer class="footer_sectn  container">
         <p class="footer_info">
             Copyright @ The Odin Project 2021
         </p>
